@@ -117,43 +117,43 @@ def seed_sample_data(conn):
             "Interstellar", "Sci-Fi", "English", "169 min", 8.7, "2024-11-05",
             "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
             "Christopher Nolan", "Matthew McConaughey, Anne Hathaway, Jessica Chastain",
-            r"C:\\Users\\Roshan Sharma\\.vscode\\CINEBOOK\\posters\\interstellar.jpg"
+            "posters/interstellar.jpg"
         ),
         (
             "The Dark Knight", "Action", "English", "152 min", 9.0, "2024-07-18",
             "When the menace known as the Joker wreaks havoc on Gotham, Batman faces his greatest psychological test.",
             "Christopher Nolan", "Christian Bale, Heath Ledger, Aaron Eckhart",
-            r"C:\\Users\\Roshan Sharma\\.vscode\\CINEBOOK\\posters\\the dark knight.jpg"
+            "posters/the dark knight.jpg"
         ),
         (
             "Inception", "Sci-Fi", "English", "148 min", 8.8, "2024-08-10",
             "A thief who steals corporate secrets through dream-sharing is tasked with planting an idea into the mind of a C.E.O.",
             "Christopher Nolan", "Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page",
-            r"C:\\Users\\Roshan Sharma\\.vscode\\CINEBOOK\\posters\\inception.jpg"
+            "posters/inception.jpg"
         ),
         (
             "The Grand Budapest Hotel", "Comedy", "English", "99 min", 8.1, "2024-03-28",
             "A writer encounters the owner of an aging hotel recounting his adventures as a lobby boy.",
             "Wes Anderson", "Ralph Fiennes, F. Murray Abraham, Mathieu Amalric",
-            r"C:\\Users\\Roshan Sharma\\.vscode\\CINEBOOK\\posters\\the grand budapest hotel.jpg"
+           "posters/the grand budapest hotel.jpg"
         ),
         (
             "La La Land", "Romance", "English", "128 min", 8.0, "2024-12-25",
             "While navigating their careers in Los Angeles, a pianist and an actress fall in love.",
             "Damien Chazelle", "Ryan Gosling, Emma Stone, Rosemarie DeWitt",
-            r"C:\\Users\\Roshan Sharma\\.vscode\\CINEBOOK\\posters\\la la land.jpg"
+            "posters/la la land.jpg"
         ),
         (
             "Avengers: Endgame", "Action", "English", "181 min", 8.4, "2024-04-26",
             "After Infinity War, the universe is in ruins. The Avengers assemble once more to reverse Thanos' actions.",
             "Anthony Russo, Joe Russo", "Robert Downey Jr., Chris Evans, Mark Ruffalo",
-            r"C:\\Users\\Roshan Sharma\\.vscode\\CINEBOOK\\posters\\avengers endgame.jpg"
+            "posters/avengers endgame.jpg"
         ),
         (
             "Spirited Away", "Animation", "Japanese", "125 min", 8.6, "2024-07-20",
             "During her family's move to the suburbs, a 10-year-old girl wanders into a world of spirits.",
             "Hayao Miyazaki", "Rumi Hiiragi, Miyu Irino, Mari Natsuki",
-            r"C:\\Users\\Roshan Sharma\\.vscode\\CINEBOOK\\posters\\spirited away.jpg"
+            "posters/spirited away.jpg"
         )
     ]
     cursor.executemany("""
